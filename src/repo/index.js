@@ -1,0 +1,13 @@
+export {default as AuthRepo} from './auth';
+export {default as PickersRepo} from './pickers';
+export {default as UsersRepo} from './users';
+export {default as StaticPagesRepo} from './staticPages';
+export {default as SideMenuRepo} from './sideMenu';
+export {default as NotificationsRepo} from './notifications';
+export {default as ContactUsRepo} from './contactUs';
+export {default as AddressRepo} from './address';
+export {default as FavouriteRepo} from './favourite';
+export {default as ShipmentRepo} from './shipment';
+export {default as StoreRepo} from './stores';
+export {default as CartRepo} from './cart';
+export {default as BagRepo} from './bag';

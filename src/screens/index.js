@@ -1,0 +1,94 @@
+import { AppNavigation } from '../common';
+import HeaderBgMenuItem from '../components/newComponents/HeaderBgMenuItem';
+import Header from '../components/newComponents/HeaderRightBackground';
+import RighButton from '../components/newComponents/rightBackButton';
+import TopBarBg from '../components/newComponents/TopBarBg';
+import ButtonIcon from './Home/components/bottomTabs/buttonIcon';
+import Home from './Home/Home';
+import Login from './login/Login';
+import Menu from './Menu/Menu';
+import TestScreen from './TestScreen/TestScreen';
+import UpdateProfile from './updateProfile/UpdateProfile';
+import Notifications from './User/Notifications';
+import Profile from './User/Profile/Profile';
+import VerifyCode from './verifyCode/VerifyCode';
+import Welcome from './welcome/Welcome';
+// import {withAppNavigationProvider} from 'react-native-AppNavigation-hooks/dist';
+import HeaderBackButton from '../components/newComponents/HeaderBackButton';
+import Bag from './User/Bag';
+import Orders from './User/Orders';
+
+import AboutApp from '../screens/StaticPages/AboutApp';
+import TermsAndConditions from '../screens/StaticPages/TermsAndConditions';
+import UsagePolicy from '../screens/StaticPages/UsagePolicy';
+import ContactUs from './ContactUs/ContactUs';
+import ContactUs2 from './ContactUs2/ContactUs2';
+import Favourites from './Favourites/Favourites';
+import OrderDetails from './OrderDetails/OrderDetails';
+import AddNewCart from './Payment/AddNewCart';
+import Payment from './Payment/Payment';
+import PayWebView from './payWebView/PayWebView';
+import ProductDetails from './ProductDetails/ProductDetails';
+import AddNewAddress from './ShippingAddress/AddNewAddress';
+import EditAddress from './ShippingAddress/EditAddress';
+import ShippingAddress from './ShippingAddress/ShippingAddress';
+import Faq from './StaticPages/Faq';
+import StoreDetails from './StoreDetails/StoreDetails';
+import Stores from './Stores/Stores';
+import AddAddress from './User/AddAddress';
+import ChooseAddress from './User/ChooseAddress';
+import ChooseCart from './User/ChooseCart';
+import ShippingCompany from './User/ShippingCompay/ShippingCompany';
+import VerifyPhone from './verifyPhone/VerifyPhone';
+import ScreenOne from './welcome/screens/screen1/Screen1';
+import ScreenTwo from './welcome/screens/screen2/Screen2';
+export default () => {
+  AppNavigation.registerScreen('Welcome', Welcome);
+  //=========================Auth===========================//
+  AppNavigation.registerScreen('Login', Login);
+  AppNavigation.registerScreen('VerifyCode', VerifyCode);
+  //=========================Main========================//
+  AppNavigation.registerScreen('TopBarBg', TopBarBg);
+  AppNavigation.registerScreen('HeaderBackButton', HeaderBackButton);
+  AppNavigation.registerScreen('RighButton', RighButton);
+
+  AppNavigation.registerScreen('Menu', Menu);
+  AppNavigation.registerScreen('ButtonIcon', ButtonIcon);
+  AppNavigation.registerScreen('HeaderBgMenuItem', HeaderBgMenuItem);
+  AppNavigation.registerScreen('RightButton', RighButton);
+  AppNavigation.registerScreen('Header', Header);
+  AppNavigation.registerScreen('TestScreen', TestScreen);
+  AppNavigation.registerScreen('UpdateProfile', UpdateProfile);
+  AppNavigation.registerScreen('Home', Home);
+  AppNavigation.registerScreen('Profile', Profile);
+  AppNavigation.registerScreen('Orders', Orders);
+  // ======================user screens=====================//
+  AppNavigation.registerScreen('Notifications', Notifications);
+  AppNavigation.registerScreen('Bag', Bag);
+
+  // ======================Static screens=====================//
+  AppNavigation.registerScreen('AboutApp', AboutApp);
+  AppNavigation.registerScreen('TermsAndConditions', TermsAndConditions);
+  AppNavigation.registerScreen('UsagePolicy', UsagePolicy);
+  AppNavigation.registerScreen('ScreenOne', ScreenOne);
+  AppNavigation.registerScreen('ScreenTwo', ScreenTwo);
+  AppNavigation.registerScreen('Faq', Faq);
+  AppNavigation.registerScreen('Stores', Stores);
+  AppNavigation.registerScreen('Payment', Payment);
+  AppNavigation.registerScreen('ShippingAddress', ShippingAddress);
+  AppNavigation.registerScreen('Favourites', Favourites);
+  AppNavigation.registerScreen('ContactUs', ContactUs);
+  AppNavigation.registerScreen('StoreDetails', StoreDetails);
+  AppNavigation.registerScreen('AddNewAddress', AddNewAddress);
+  AppNavigation.registerScreen('AddNewCart', AddNewCart);
+  AppNavigation.registerScreen('EditAddress', EditAddress);
+  AppNavigation.registerScreen('ChooseAddress', ChooseAddress);
+  AppNavigation.registerScreen('ChooseCart', ChooseCart);
+  AppNavigation.registerScreen('PayWebView', PayWebView);
+  AppNavigation.registerScreen('OrderDetails', OrderDetails);
+  AppNavigation.registerScreen('ProductDetails', ProductDetails);
+  AppNavigation.registerScreen('AddAddress', AddAddress);
+  AppNavigation.registerScreen('VerifyPhone', VerifyPhone);
+  AppNavigation.registerScreen('ShippingCompany', ShippingCompany);
+  AppNavigation.registerScreen('ContactUs2', ContactUs2);
+};

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "834485892691",
+    "project_id": "atah-dac96",
+    "storage_bucket": "atah-dac96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834485892691:android:53a0e202e5aa00e94138a6",
+        "android_client_info": {
+          "package_name": "com.fudex.atah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834485892691-0lauflfj31faudr90qr1ugaqsvvtskmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBASIGEqdErWR8a90raO7v8X7g6hJAUI8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834485892691-0lauflfj31faudr90qr1ugaqsvvtskmu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "834485892691-9cli20knj23m3hgf6mt5olv2svrfkeur.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fudex.atah",
+                "app_store_id": "6444029889"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

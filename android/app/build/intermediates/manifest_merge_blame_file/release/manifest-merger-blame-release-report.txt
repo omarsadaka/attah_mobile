@@ -1,0 +1,918 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fudex.atah"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:3:3-65
+11-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:3:20-62
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:4:3-75
+12-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:4:20-73
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:5:3-76
+13-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:5:20-74
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:6:3-79
+14-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:6:20-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:7:3-76
+15-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:7:20-74
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:8:3-78
+16-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:8:20-75
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:9:3-66
+17-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:9:20-63
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:10:3-78
+18-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:10:20-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:11:3-79
+19-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:11:20-76
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:12:3-64
+20-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:12:20-61
+21
+22    <queries>
+22-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:98:3-107:13
+23        <intent>
+23-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:99:5-102:14
+24            <action android:name="android.intent.action.VIEW" />
+24-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:100:7-59
+24-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:100:15-56
+25
+26            <data android:scheme="http" />
+26-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:101:7-37
+26-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:101:13-34
+27        </intent>
+28        <intent>
+28-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:103:5-106:14
+29            <action android:name="android.intent.action.VIEW" />
+29-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:100:7-59
+29-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:100:15-56
+30
+31            <data android:scheme="https" />
+31-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:101:7-37
+31-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:101:13-34
+32        </intent>
+33        <intent>
+33-->[:react-native-inappbrowser-reborn] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:18
+34            <action android:name="android.support.customtabs.action.CustomTabsService" />
+34-->[:react-native-inappbrowser-reborn] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-90
+34-->[:react-native-inappbrowser-reborn] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-87
+35        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+36        <package android:name="com.google.android.apps.maps" />
+36-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+36-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+37    </queries>
+38
+39    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+39-->[:react-native-community_netinfo] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+39-->[:react-native-community_netinfo] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+40    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+40-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+40-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+41    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+41-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:26:5-77
+41-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:26:22-74
+42    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+42-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:29:5-82
+42-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:29:22-79
+43
+44    <uses-feature
+44-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+45        android:glEsVersion="0x00020000"
+45-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+46        android:required="true" />
+46-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+47
+48    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+48-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/a7fe4e5a2fa322a6b06390b1c389202f/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:25:5-79
+48-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/a7fe4e5a2fa322a6b06390b1c389202f/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:25:22-76
+49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+49-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:5-110
+49-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:22-107
+50    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- for android -->
+50-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+50-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+51    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+52    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+53    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+54    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+55    <!-- for Samsung -->
+56    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+57    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+58    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+59    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+60    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+61    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+62    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+63    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+64    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+65    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+66    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+67    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+68    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+69    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+70    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+71    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/omarsadaka/.gradle/caches/transforms-3/786d8b27704527a0323752a87e620565/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+72
+73    <application
+73-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:13:3-97:17
+74        android:name="com.fudex.atah.MainApplication"
+74-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:14:7-38
+75        android:allowBackup="false"
+75-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:18:7-34
+76        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+76-->[androidx.core:core:1.6.0] /Users/omarsadaka/.gradle/caches/transforms-3/275a097b4b4aec771f201c8a5684b64f/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+77        android:icon="@mipmap/ic_launcher"
+77-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:16:7-41
+78        android:label="@string/app_name"
+78-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:15:7-39
+79        android:roundIcon="@mipmap/ic_launcher_round"
+79-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:17:7-52
+80        android:theme="@style/AppTheme"
+80-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:20:7-38
+81        android:usesCleartextTraffic="true" >
+81-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:19:7-42
+82
+83        <!-- // notifi -->
+84        <meta-data
+84-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:22:5-23:33
+85            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+85-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:22:16-92
+86            android:value="true" />
+86-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:23:11-31
+87        <!-- Change the value to false if you don't want the creation of the default channel -->
+88        <!--
+89         <meta-data android:name="com.dieam.reactnativepushnotification.channel_create_default" 
+90          android:value="true"/>
+91        -->
+92        <!-- Change the resource name to your App's accent color - or any other color you want -->
+93        <meta-data
+93-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:28:5-29:44
+94            android:name="com.dieam.reactnativepushnotification.notification_color"
+94-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:28:16-87
+95            android:resource="@color/white" />
+95-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:29:11-42
+96        <!-- or @android:color/{name} to use a standard color -->
+97        <!--
+98         <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_name" 
+99          android:value="YOUR NOTIFICATION CHANNEL NAME"/>
+100        <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_description" 
+101          android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION"/>
+102        -->
+103        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+103-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:35:5-104
+103-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:35:15-101
+104        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+104-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:36:5-106
+104-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:36:15-103
+105        <receiver
+105-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:37:5-43:16
+106            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+106-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:37:15-111
+107            android:exported="false" >
+107-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:37:112-136
+108            <intent-filter>
+108-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:38:7-42:23
+109                <action android:name="android.intent.action.BOOT_COMPLETED" />
+109-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:39:9-71
+109-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:39:17-68
+110                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+110-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:40:9-74
+110-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:40:17-71
+111                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+111-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:41:9-73
+111-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:41:17-71
+112            </intent-filter>
+113        </receiver>
+114
+115        <service
+115-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:44:5-50:15
+116            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+116-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:45:13-107
+117            android:exported="false" >
+117-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:46:13-37
+118            <intent-filter>
+118-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:47:7-49:23
+119                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+119-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:48:9-70
+119-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:48:17-67
+120            </intent-filter>
+121        </service>
+122
+123        <meta-data
+123-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:51:5-53:98
+124            android:name="com.google.firebase.messaging.default_notification_channel_id"
+124-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:52:11-87
+125            android:value="@string/default_notification_channel_id" />
+125-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:53:11-66
+126        <!-- end notifi -->
+127        <meta-data
+127-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:55:5-57:67
+128            android:name="com.google.android.geo.API_KEY"
+128-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:56:9-54
+129            android:value="AIzaSyAwnh5_pDUOfKsT4lzVKEc1e99uoxvo35s" />
+129-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:57:9-64
+130
+131        <activity
+131-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:58:5-71:16
+132            android:name="com.fudex.atah.SplashActivity"
+132-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:59:7-37
+133            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+133-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:62:7-116
+134            android:exported="true"
+134-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:65:7-30
+135            android:label="@string/app_name"
+135-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:61:7-39
+136            android:launchMode="singleTask"
+136-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:63:7-38
+137            android:theme="@style/SplashTheme"
+137-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:60:7-41
+138            android:windowSoftInputMode="adjustResize" >
+138-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:64:7-49
+139            <intent-filter>
+139-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:67:7-70:23
+140                <action android:name="android.intent.action.MAIN" />
+140-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:68:9-61
+140-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:68:17-58
+141
+142                <category android:name="android.intent.category.LAUNCHER" />
+142-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:69:9-69
+142-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:69:19-66
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:72:5-79:18
+146            android:name="com.fudex.atah.MainActivity"
+146-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:73:9-37
+147            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+147-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:75:9-118
+148            android:exported="true"
+148-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:78:9-32
+149            android:label="@string/app_name"
+149-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:74:9-41
+150            android:launchMode="singleTask"
+150-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:76:9-40
+151            android:windowSoftInputMode="adjustResize" >
+151-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:77:9-51
+152        </activity>
+153        <!--
+154		<meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_name" android:value="Atah" />
+155		<meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_description" android:value="Atah Client channel for notifications" />
+156		<meta-data android:name="com.dieam.reactnativepushnotification.notification_foreground" android:value="true" />
+157		
+158		<meta-data android:name="com.dieam.reactnativepushnotification.notification_color" android:resource="@android:color/white" />
+159		<receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+160		<receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+161			<intent-filter>
+162				<action android:name="android.intent.action.BOOT_COMPLETED" />
+163			</intent-filter>
+164		</receiver>
+165		<service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService" android:exported="false">
+166			<intent-filter>
+167				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+168			</intent-filter>
+169		</service>
+170        -->
+171        <meta-data
+171-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
+172            android:name="firebase_analytics_collection_enabled"
+172-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+173            android:value="true" />
+173-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
+174        <meta-data
+174-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:37
+175            android:name="firebase_analytics_collection_deactivated"
+175-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-69
+176            android:value="false" />
+176-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-34
+177        <meta-data
+177-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-22:36
+178            android:name="google_analytics_adid_collection_enabled"
+178-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-68
+179            android:value="true" />
+179-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-33
+180        <meta-data
+180-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-25:36
+181            android:name="google_analytics_ssaid_collection_enabled"
+181-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-69
+182            android:value="true" />
+182-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-33
+183        <meta-data
+183-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:36
+184            android:name="google_analytics_default_allow_ad_personalization_signals"
+184-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-85
+185            android:value="true" />
+185-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-33
+186        <meta-data
+186-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-31:36
+187            android:name="google_analytics_automatic_screen_reporting_enabled"
+187-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-79
+188            android:value="true" />
+188-->[:react-native-firebase_analytics] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33
+189
+190        <service
+190-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+191            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+191-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+192            android:exported="false" />
+192-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+193        <service
+193-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+194            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+194-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+195            android:exported="false" >
+195-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+196            <intent-filter>
+196-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:47:7-49:23
+197                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+197-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:48:9-70
+197-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:48:17-67
+198            </intent-filter>
+199        </service>
+200
+201        <receiver
+201-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+202            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+202-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+203            android:exported="true"
+203-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+204            android:permission="com.google.android.c2dm.permission.SEND" >
+204-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+205            <intent-filter>
+205-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+206                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+206-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+206-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+207            </intent-filter>
+208        </receiver>
+209
+210        <meta-data
+210-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+211            android:name="firebase_messaging_auto_init_enabled"
+211-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+212            android:value="true" />
+212-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+213        <meta-data
+213-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+214            android:name="com.google.firebase.messaging.default_notification_color"
+214-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+215            android:resource="@color/white" />
+215-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+216        <meta-data
+216-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+217            android:name="app_data_collection_default_enabled"
+217-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+218            android:value="true" />
+218-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+219
+220        <service
+220-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+221            android:name="com.google.firebase.components.ComponentDiscoveryService"
+221-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+222            android:directBootAware="true"
+222-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+223            android:exported="false" >
+223-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+224            <meta-data
+224-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+225                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+225-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:56:13-58:85
+228                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+228-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:57:17-119
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:58:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-dynamic-links:21.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/ed715218e3208ad339eb228f3d3f9558/transformed/jetified-firebase-dynamic-links-21.0.2/AndroidManifest.xml:27:13-29:85
+231                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+231-->[com.google.firebase:firebase-dynamic-links:21.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/ed715218e3208ad339eb228f3d3f9558/transformed/jetified-firebase-dynamic-links-21.0.2/AndroidManifest.xml:28:17-133
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-dynamic-links:21.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/ed715218e3208ad339eb228f3d3f9558/transformed/jetified-firebase-dynamic-links-21.0.2/AndroidManifest.xml:29:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/omarsadaka/.gradle/caches/transforms-3/d08319a51842cb384c9290ab36f54e31/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:28:13-30:85
+234                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+234-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/omarsadaka/.gradle/caches/transforms-3/d08319a51842cb384c9290ab36f54e31/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:29:17-115
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/omarsadaka/.gradle/caches/transforms-3/d08319a51842cb384c9290ab36f54e31/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:30:17-82
+236            <meta-data
+236-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/a7fe4e5a2fa322a6b06390b1c389202f/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:31:13-33:85
+237                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+237-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/a7fe4e5a2fa322a6b06390b1c389202f/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:32:17-139
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/a7fe4e5a2fa322a6b06390b1c389202f/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:33:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-installations:17.0.3] /Users/omarsadaka/.gradle/caches/transforms-3/5241475cbe65a27d8105f3dbbc2178c2/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:18:13-20:85
+240                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+240-->[com.google.firebase:firebase-installations:17.0.3] /Users/omarsadaka/.gradle/caches/transforms-3/5241475cbe65a27d8105f3dbbc2178c2/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:19:17-127
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-installations:17.0.3] /Users/omarsadaka/.gradle/caches/transforms-3/5241475cbe65a27d8105f3dbbc2178c2/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:20:17-82
+242        </service>
+243
+244        <provider
+244-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+245            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+245-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+246            android:authorities="com.fudex.atah.reactnativefirebaseappinitprovider"
+246-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+247            android:exported="false"
+247-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+248            android:initOrder="99" />
+248-->[:react-native-firebase_app] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+249        <provider
+249-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+250            android:name="com.imagepicker.ImagePickerProvider"
+250-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+251            android:authorities="com.fudex.atah.imagepickerprovider"
+251-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+252            android:exported="false"
+252-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+253            android:grantUriPermissions="true" >
+253-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+254            <meta-data
+254-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+255                android:name="android.support.FILE_PROVIDER_PATHS"
+255-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+256                android:resource="@xml/imagepicker_provider_paths" />
+256-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+257        </provider>
+258
+259        <activity
+259-->[:react-native-inappbrowser-reborn] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-21:20
+260            android:name="com.proyecto26.inappbrowser.ChromeTabsManagerActivity"
+260-->[:react-native-inappbrowser-reborn] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-81
+261            android:exported="false" >
+261-->[:react-native-inappbrowser-reborn] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+262        </activity>
+263        <activity
+263-->[:react-native-navigation] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifest/reactNative68Release/AndroidManifest.xml:10:9-12:40
+264            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+264-->[:react-native-navigation] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifest/reactNative68Release/AndroidManifest.xml:11:13-77
+265            android:exported="false" />
+265-->[:react-native-navigation] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifest/reactNative68Release/AndroidManifest.xml:12:13-37
+266
+267        <provider
+267-->[:react-native-share] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+268            android:name="cl.json.RNShareFileProvider"
+268-->[:react-native-share] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-55
+269            android:authorities="com.fudex.atah.rnshare.fileprovider"
+269-->[:react-native-share] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-72
+270            android:exported="false"
+270-->[:react-native-share] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+271            android:grantUriPermissions="true" >
+271-->[:react-native-share] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+272            <meta-data
+272-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+273                android:name="android.support.FILE_PROVIDER_PATHS"
+273-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+274                android:resource="@xml/share_download_paths" />
+274-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+275        </provider>
+276        <provider
+276-->[:react-native-webview] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+277            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+277-->[:react-native-webview] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+278            android:authorities="com.fudex.atah.fileprovider"
+278-->[:react-native-webview] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+279            android:exported="false"
+279-->[:react-native-webview] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+280            android:grantUriPermissions="true" >
+280-->[:react-native-webview] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+281            <meta-data
+281-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+282                android:name="android.support.FILE_PROVIDER_PATHS"
+282-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+283                android:resource="@xml/file_provider_paths" />
+283-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+284        </provider>
+285        <provider
+285-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+286            android:name="com.RNFetchBlob.Utils.FileProvider"
+286-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+287            android:authorities="com.fudex.atah.provider"
+287-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+288            android:exported="false"
+288-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+289            android:grantUriPermissions="true" >
+289-->[:rn-fetch-blob] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+290            <meta-data
+290-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+291                android:name="android.support.FILE_PROVIDER_PATHS"
+291-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+292                android:resource="@xml/provider_paths" />
+292-->[:react-native-image-picker] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+293        </provider>
+294
+295        <receiver
+295-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:32:9-39:20
+296            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+296-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:33:13-78
+297            android:exported="true"
+297-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:34:13-36
+298            android:permission="com.google.android.c2dm.permission.SEND" >
+298-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:35:13-73
+299            <intent-filter>
+299-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+300                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+300-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+300-->[:react-native-firebase_messaging] /Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+301            </intent-filter>
+302        </receiver>
+303        <!--
+304             FirebaseMessagingService performs security checks at runtime,
+305             but set to not exported to explicitly avoid allowing another app to call it.
+306        -->
+307        <service
+307-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:45:9-52:19
+308            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+308-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:46:13-82
+309            android:directBootAware="true"
+309-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:47:13-43
+310            android:exported="false" >
+310-->[com.google.firebase:firebase-messaging:23.0.8] /Users/omarsadaka/.gradle/caches/transforms-3/380ad7cdfd81fe8b4d19e85745f5dfe5/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:48:13-37
+311            <intent-filter android:priority="-500" >
+311-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:47:7-49:23
+312                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+312-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:48:9-70
+312-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:48:17-67
+313            </intent-filter>
+314        </service>
+315
+316        <activity
+316-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+317            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+317-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+318            android:excludeFromRecents="true"
+318-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+319            android:exported="false"
+319-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+320            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+320-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+321        <!--
+322            Service handling Google Sign-In user revocation. For apps that do not integrate with
+323            Google Sign-In, this service will never be started.
+324        -->
+325        <service
+325-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+326            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+326-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+327            android:exported="true"
+327-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+328            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+328-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+329            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+329-->[com.google.android.gms:play-services-auth:20.3.0] /Users/omarsadaka/.gradle/caches/transforms-3/f06c8e48b96a96b48d2c556e313da346/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+330        <uses-library
+330-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+331            android:name="org.apache.http.legacy"
+331-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+332            android:required="false" />
+332-->[com.google.android.gms:play-services-maps:18.0.2] /Users/omarsadaka/.gradle/caches/transforms-3/da3dc66ecf2413663fa013feeabf4e17/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+333
+334        <activity
+334-->[com.google.android.gms:play-services-base:18.0.1] /Users/omarsadaka/.gradle/caches/transforms-3/7ade3ab776e72fd341fc522da49a95f9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+335            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+335-->[com.google.android.gms:play-services-base:18.0.1] /Users/omarsadaka/.gradle/caches/transforms-3/7ade3ab776e72fd341fc522da49a95f9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+336            android:exported="false"
+336-->[com.google.android.gms:play-services-base:18.0.1] /Users/omarsadaka/.gradle/caches/transforms-3/7ade3ab776e72fd341fc522da49a95f9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+337            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+337-->[com.google.android.gms:play-services-base:18.0.1] /Users/omarsadaka/.gradle/caches/transforms-3/7ade3ab776e72fd341fc522da49a95f9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+338
+339        <service
+339-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/9af54bca614f4ad96966d06a588091d6/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:29:9-35:19
+340            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+340-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/9af54bca614f4ad96966d06a588091d6/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:30:13-103
+341            android:exported="false" >
+341-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/9af54bca614f4ad96966d06a588091d6/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:31:13-37
+342            <meta-data
+342-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/9af54bca614f4ad96966d06a588091d6/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:32:13-34:39
+343                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+343-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/9af54bca614f4ad96966d06a588091d6/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:33:17-94
+344                android:value="cct" />
+344-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/9af54bca614f4ad96966d06a588091d6/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:34:17-36
+345        </service>
+346        <service
+346-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:26:9-30:19
+347            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+347-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:27:13-117
+348            android:exported="false"
+348-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:28:13-37
+349            android:permission="android.permission.BIND_JOB_SERVICE" >
+349-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:29:13-69
+350        </service>
+351
+352        <receiver
+352-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:32:9-34:40
+353            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+353-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:33:13-132
+354            android:exported="false" />
+354-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/omarsadaka/.gradle/caches/transforms-3/361f686aced583f79b0eccd79f5bf263/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:34:13-37
+355
+356        <meta-data
+356-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/omarsadaka/.gradle/caches/transforms-3/2e0769e5ec1712d3364fdf21167d152d/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+357            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+357-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/omarsadaka/.gradle/caches/transforms-3/2e0769e5ec1712d3364fdf21167d152d/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+358            android:value="GlideModule" />
+358-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/omarsadaka/.gradle/caches/transforms-3/2e0769e5ec1712d3364fdf21167d152d/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+359
+360        <provider
+360-->[com.google.firebase:firebase-common:20.1.2] /Users/omarsadaka/.gradle/caches/transforms-3/3851cad0b4acffd091c01d09ccfbb087/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:26:9-31:39
+361            android:name="com.google.firebase.provider.FirebaseInitProvider"
+361-->[com.google.firebase:firebase-common:20.1.2] /Users/omarsadaka/.gradle/caches/transforms-3/3851cad0b4acffd091c01d09ccfbb087/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:27:13-77
+362            android:authorities="com.fudex.atah.firebaseinitprovider"
+362-->[com.google.firebase:firebase-common:20.1.2] /Users/omarsadaka/.gradle/caches/transforms-3/3851cad0b4acffd091c01d09ccfbb087/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:28:13-72
+363            android:directBootAware="true"
+363-->[com.google.firebase:firebase-common:20.1.2] /Users/omarsadaka/.gradle/caches/transforms-3/3851cad0b4acffd091c01d09ccfbb087/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:29:13-43
+364            android:exported="false"
+364-->[com.google.firebase:firebase-common:20.1.2] /Users/omarsadaka/.gradle/caches/transforms-3/3851cad0b4acffd091c01d09ccfbb087/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:30:13-37
+365            android:initOrder="100" />
+365-->[com.google.firebase:firebase-common:20.1.2] /Users/omarsadaka/.gradle/caches/transforms-3/3851cad0b4acffd091c01d09ccfbb087/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:31:13-36
+366
+367        <receiver
+367-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:29:9-33:20
+368            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+368-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:30:13-85
+369            android:enabled="true"
+369-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:31:13-35
+370            android:exported="false" >
+370-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:32:13-37
+371        </receiver>
+372
+373        <service
+373-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:35:9-38:40
+374            android:name="com.google.android.gms.measurement.AppMeasurementService"
+374-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:36:13-84
+375            android:enabled="true"
+375-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:37:13-35
+376            android:exported="false" />
+376-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:38:13-37
+377        <service
+377-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:39:9-43:72
+378            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+378-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:40:13-87
+379            android:enabled="true"
+379-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:41:13-35
+380            android:exported="false"
+380-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:42:13-37
+381            android:permission="android.permission.BIND_JOB_SERVICE" />
+381-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/omarsadaka/.gradle/caches/transforms-3/c3e779a652255e1ab328d7488e99b82a/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:43:13-69
+382
+383        <meta-data
+383-->[com.google.android.gms:play-services-basement:18.1.0] /Users/omarsadaka/.gradle/caches/transforms-3/dd058d5c8c2c4b23c21ecc4f9ea7a08c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+384            android:name="com.google.android.gms.version"
+384-->[com.google.android.gms:play-services-basement:18.1.0] /Users/omarsadaka/.gradle/caches/transforms-3/dd058d5c8c2c4b23c21ecc4f9ea7a08c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+385            android:value="@integer/google_play_services_version" />
+385-->[com.google.android.gms:play-services-basement:18.1.0] /Users/omarsadaka/.gradle/caches/transforms-3/dd058d5c8c2c4b23c21ecc4f9ea7a08c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+386
+387        <provider
+387-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+388            android:name="androidx.startup.InitializationProvider"
+388-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+389            android:authorities="com.fudex.atah.androidx-startup"
+389-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+390            android:exported="false" >
+390-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+391            <meta-data
+391-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+392                android:name="androidx.work.WorkManagerInitializer"
+392-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+393                android:value="androidx.startup" />
+393-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+394        </provider>
+395
+396        <service
+396-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+397            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+397-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+398            android:directBootAware="false"
+398-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+399            android:enabled="@bool/enable_system_alarm_service_default"
+399-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+400            android:exported="false" />
+400-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+401        <service
+401-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+402            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+402-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+403            android:directBootAware="false"
+403-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+404            android:enabled="@bool/enable_system_job_service_default"
+404-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+405            android:exported="true"
+405-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+406            android:permission="android.permission.BIND_JOB_SERVICE" />
+406-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+407        <service
+407-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+408            android:name="androidx.work.impl.foreground.SystemForegroundService"
+408-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+409            android:directBootAware="false"
+409-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+410            android:enabled="@bool/enable_system_foreground_service_default"
+410-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+411            android:exported="false" />
+411-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+412
+413        <receiver
+413-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+414            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+414-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+415            android:directBootAware="false"
+415-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+416            android:enabled="true"
+416-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+417            android:exported="false" />
+417-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+418        <receiver
+418-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+419            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+419-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+420            android:directBootAware="false"
+420-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+421            android:enabled="false"
+421-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+422            android:exported="false" >
+422-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+423            <intent-filter>
+423-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+424                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+424-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+424-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+425                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+425-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+425-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+426            </intent-filter>
+427        </receiver>
+428        <receiver
+428-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+429            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+429-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+430            android:directBootAware="false"
+430-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+431            android:enabled="false"
+431-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+433            <intent-filter>
+433-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+434                <action android:name="android.intent.action.BATTERY_OKAY" />
+434-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+434-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+435                <action android:name="android.intent.action.BATTERY_LOW" />
+435-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+435-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+436            </intent-filter>
+437        </receiver>
+438        <receiver
+438-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+439            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+439-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+440            android:directBootAware="false"
+440-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+441            android:enabled="false"
+441-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+442            android:exported="false" >
+442-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+443            <intent-filter>
+443-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+444                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+444-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+444-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+445                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+445-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+445-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+446            </intent-filter>
+447        </receiver>
+448        <receiver
+448-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+449            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+449-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+450            android:directBootAware="false"
+450-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+451            android:enabled="false"
+451-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+452            android:exported="false" >
+452-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+453            <intent-filter>
+453-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+454                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+454-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+454-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+458            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+458-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+462            <intent-filter>
+462-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+463                <action android:name="android.intent.action.BOOT_COMPLETED" />
+463-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:39:9-71
+463-->/Users/omarsadaka/Desktop/Apps/Fudex/atah/attah_mobile/android/app/src/main/AndroidManifest.xml:39:17-68
+464                <action android:name="android.intent.action.TIME_SET" />
+464-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+464-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+465                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+465-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+465-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+466            </intent-filter>
+467        </receiver>
+468        <receiver
+468-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+469            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+469-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+470            android:directBootAware="false"
+470-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+471            android:enabled="@bool/enable_system_alarm_service_default"
+471-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+472            android:exported="false" >
+472-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+473            <intent-filter>
+473-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+474                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+474-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+474-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+475            </intent-filter>
+476        </receiver>
+477        <receiver
+477-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+478            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+478-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+479            android:directBootAware="false"
+479-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+480            android:enabled="true"
+480-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+481            android:exported="true"
+481-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+482            android:permission="android.permission.DUMP" >
+482-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+483            <intent-filter>
+483-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+484                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+484-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+484-->[androidx.work:work-runtime:2.7.1] /Users/omarsadaka/.gradle/caches/transforms-3/5adb4ab5141485b23b381656646b4431/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+485            </intent-filter>
+486        </receiver>
+487
+488        <service
+488-->[androidx.room:room-runtime:2.2.5] /Users/omarsadaka/.gradle/caches/transforms-3/c0f437d4253388a535969eed64d5d28f/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+489            android:name="androidx.room.MultiInstanceInvalidationService"
+489-->[androidx.room:room-runtime:2.2.5] /Users/omarsadaka/.gradle/caches/transforms-3/c0f437d4253388a535969eed64d5d28f/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+490            android:directBootAware="true"
+490-->[androidx.room:room-runtime:2.2.5] /Users/omarsadaka/.gradle/caches/transforms-3/c0f437d4253388a535969eed64d5d28f/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+491            android:exported="false" />
+491-->[androidx.room:room-runtime:2.2.5] /Users/omarsadaka/.gradle/caches/transforms-3/c0f437d4253388a535969eed64d5d28f/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+492    </application>
+493
+494</manifest>
